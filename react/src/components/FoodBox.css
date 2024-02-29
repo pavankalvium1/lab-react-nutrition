@@ -1,0 +1,59 @@
+body {
+    padding-left: 10px;
+    background-color: rgb(1, 171, 250);
+}
+
+input {
+    border: 2px solid purple;
+    outline: none;
+}
+
+.food-box {
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3,
+h6 {
+    margin: 0px;
+    color: black;
+}
+
+#search{
+    color: white;
+}
+
+.media-container {
+    text-align: center;
+    background-color: rgb(227, 233, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+}
+
+.content-container {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 28, 122);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+}
+
+.reset-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 92, 92);
+    border-radius: 10px;
+}
